@@ -1,11 +1,11 @@
 {
   "type": "oracle",
-  "host": "your_host",
+  "host": "localhost",
   "port": 1521,
-  "username": "your_username",
-  "password": "your_password",
-  "database": "your_database_name",
+  "username": "username",
+  "password": "password",
+  "database": "oracle-db",
   "synchronize": true,
-  "logging": false,
+  "logging": true,
   "entities": ["dist/**/*.entity{.ts,.js}"]
 }
